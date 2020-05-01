@@ -7,26 +7,35 @@
 	<style>
 		/*reset*/
 		*{margin: 0;padding: 0;box-sizing:border-box;}
+        #time-result{margin-left: 37%;;margin-top:30%;position: absolute;z-index: 1;
+        font-size: 1.5em;color: #fff;}
+		#inpCity{margin-left: 40%;
+			width: 100px;height: 40px;
+			position: absolute;top: 550px;z-index: 1;
+			background-color: rgba(0, 0, 255, 0.67);
+			color: #fff;font-size: 1.5em;}
 		li{list-style:none}
 		a:visited,a:link{text-decoration:none;color:black;}
 		.clearfix:after{content:"";display: block;clear: both;}
 		
 		#weather_info{
-			width: 500px;height:200px;margin: auto;
-			background-color:skyblue;
-			border: 1px solid #000;
+			width: 500px;height:800px;margin: auto;
+			background-image: url(img/Untitled-1.png);
 			position: relative;
 		}
-		h1{text-align: center;}
+		h1{text-align: center;color: #fff;position: absolute;top: 80px;left:40%;
+			font-size: 3em}
 		p.w_id,div.icon,p.temp,div.tempWrap{position: absolute;}
-		p.w_id{top:80px;left:50px;}
-		div.icon{top:100px;left:50px;}
+		p.w_id{top:350px;left:50%;font-size: 1.3em;
+			color: #fff}
+		div.icon{top:230px;left:40%;}
 		p.temp{
-			top:80px;left:50%;
+			top:240px;left:68%;
 			transform:translateX(-50%);
-			font-size:3em;
+			font-size:3em;color: #fff;
 		}
-		div.tempWrap{top:80px;right:50px;}
+		div.tempWrap{top:540px;right:100px;
+			font-size: 1.3em;color: #fff}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
